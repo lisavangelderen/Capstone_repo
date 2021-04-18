@@ -1,0 +1,26 @@
+In this repository you can find the code I used for my bachelors thesis. The
+source of the code will be listed in the code file.
+
+* Project Description
+
+  For my thesis, I will compare the performance of four algorithms on OpenAI gym
+  environments. The first two algorithms are a DQN and a genetic
+  algorithm. These are first used on the Cartpole-v1 environment for a rough
+  comparison. Then they will be used on the maze environment, where the other
+  two algorithms will also be used on. The other two algorithms being an altered
+  DQN (temporarily extended epsilon-greedy), and a Novelty Search algorithm.
+  The ultimate goal is to draw conclusion about the difference in tactics of
+  Greedy and non-greedy algorithms in Reinforcement Learning and Evolutionary
+  Algorithms.
+
+* Files
+
+  The algorithms themselves can be found in the main directory under their
+  environment and algorithm name (e.g Cartpole_DQN).
+
+  Their performance is measured for both the "training" time and their
+  performance test in csv files (e.g Cartpole_DQN_train_scores.csv).
+
+  The plot_evaluation file contains code to plot the progress of the algorithm
+  based on the csv files, and creates images stored in the img directory under
+  their respective names again.
