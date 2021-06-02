@@ -4,14 +4,10 @@ source of the code will be listed in the code file.
 * Project Description
 
   For my thesis, I will compare the performance of four algorithms on OpenAI gym
-  environments. The first two algorithms are a DQN and a genetic
-  algorithm. These are first used on the Cartpole-v1 environment for a rough
-  comparison. Then they will be used on the LunarLander-v2 environment, where the other
-  two algorithms will also be used on. The other two algorithms being an altered
-  DQN (temporarily extended epsilon-greedy), and a Novelty Search algorithm.
-  The ultimate goal is to draw conclusion about the difference in tactics of
-  Greedy and non-greedy algorithms in Reinforcement Learning and Evolutionary
-  Algorithms.
+  environments. The four algorithms are: DQN, extended DQN, fitness search based 
+  Genetic Algorithm, and a novelty search based Genetic Algorithm.  The ultimate 
+  goal is to draw conclusion about the difference in tactics of Greedy and 
+  non-greedy algorithms in Reinforcement Learning and Evolutionary lgorithms.
 
 * Files
 
@@ -29,7 +25,11 @@ source of the code will be listed in the code file.
 
   The code used is from the following sources:
   - Cartpole DQN: https://github.com/siddharthkale97/CartPole-v1-DeepQ-AI/blob/master/DeepQcartpole.py
+  - Cartpole DQN extended: https://github.com/siddharthkale97/CartPole-v1-DeepQ-AI/blob/master/DeepQcartpole.py
   - Cartpole GA: https://gist.github.com/DollarAkshay/55e50158a1259cb4ef5675a427bf1781
+  - Cartpole NS: https://www.jetnew.io/posts/2020/11/novelty-search/
   - Lunar DQN: https://github.com/ranjitation/DQN-for-LunarLander
+  - Lunar DQN extended: https://github.com/ranjitation/DQN-for-LunarLander
   - Lunar GA: https://gist.github.com/DollarAkshay/e6fe84fdf721db2731948e8461092e5a
+  - Lunar NS: https://www.jetnew.io/posts/2020/11/novelty-search/
   
